@@ -1,21 +1,24 @@
-public class Biodata {
+public class BiodataDiri {
     public static void main(String[] args) {
+        // Deklarasi variabel
+        String nama = "Muh Adil Fachrezi";
+        String alamat = "Kalukku, Mamuju, Sulawesi Barat";
+        int usia = 18;
+        double tinggiBadan = 168;
+        char jenisKelamin = 'L';
 
-        // Menggunakan println() untuk menampilkan nama dan alamat
-        System.out.println("Nama            : Muh Adil Fachrezi");
-        System.out.println("Alamat          : Mamuju, Kalukku");
+        // Menggunakan print() - tidak membuat baris baru di akhir
+        System.out.print("=== ");
+        System.out.print("PROGRAM BIODATA DIRI ");
+        System.out.print("===\n");
 
-        /*
-         * Menggunakan print() untuk menampilkan status
-         * tanpa langsung berpindah ke baris baru
-         */
-        System.out.print("Status          : ");
-        System.out.print("Mahasiswa\n");
+        // Menggunakan println() - membuat baris baru di akhir
+        System.out.println("Nama Lengkap   : " + nama);
+        System.out.println("Alamat Asal    : " + alamat);
 
-        /**
-         * Menggunakan printf() untuk menampilkan
-         * jenis kelamin dengan format %s
-         */
-        System.out.printf("Jenis Kelamin   : %s%n", "Laki-laki");
+        // Menggunakan printf() - untuk teks berformat
+        System.out.printf("Usia           : %d tahun\n", usia);
+        System.out.printf("Tinggi Badan   : %.1f cm\n", tinggiBadan);
+        System.out.printf("Jenis Kelamin  : %c\n", jenisKelamin);
     }
 }
