@@ -1,4 +1,4 @@
-public class Main {
+public class EscapeSequence {
     public static void main(String[] args) {
 
         // \n digunakan untuk membuat baris baru
