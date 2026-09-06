@@ -1,4 +1,4 @@
-public class Main {
+public class TipeDataPecahan {
     public static void main(String[] args) {
 
         // Menyimpan berat badan menggunakan tipe data float
