@@ -3,10 +3,9 @@ import java.util.Scanner;
 public class KodeAngka {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner zhy = new Scanner(System.in);
 
-        System.out.print("Masukkan angka: ");
-        int angka = input.nextInt();
+        int angka = zhy.nextInt();
 
         String kode;
 
@@ -30,6 +29,6 @@ public class KodeAngka {
 
         System.out.println(kode);
 
-        input.close();
+        zhy.close();
     }
 }
